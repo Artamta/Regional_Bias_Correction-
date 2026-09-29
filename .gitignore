@@ -35,11 +35,11 @@ credentials*
 *.h5
 *.hdf5
 
-# Generated global-workflow artifacts
-ai-quest-global/handoff/
-ai-quest-global/logs/
-ai-quest-global/plot_packages/
-ai-quest-global/runs/
+# Generated previous-work artifacts
+previous-work/ai-quest-global/handoff/
+previous-work/ai-quest-global/logs/
+previous-work/ai-quest-global/plot_packages/
+previous-work/ai-quest-global/runs/
 
 # Scheduler output
 slurm-*.out
