@@ -1,0 +1,13 @@
+numpy>=1.26
+pandas>=2.2
+xarray>=2024.9
+zarr>=2.18,<3
+numcodecs>=0.12
+netCDF4>=1.7
+matplotlib>=3.8
+cartopy>=0.23
+scipy>=1.13
+Pillow>=10
+torch>=2.2
+pytest>=8
+

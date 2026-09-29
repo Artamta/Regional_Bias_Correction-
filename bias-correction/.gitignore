@@ -1,0 +1,44 @@
+# Python and test state
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environments
+.venv/
+.venv-*/
+venv/
+
+# Generated research artifacts
+cache/
+!logs/
+logs/*
+!logs/.gitkeep
+results/*
+!results/README.md
+resultsv2/*
+!resultsv2/README.md
+resultsv3/*
+!resultsv3/README.md
+reports/*
+!reports/README.md
+trained_model/
+
+# Generated presentation payloads; generators live in evaluate/, audit docs stay
+presentation/generated/
+presentation/derived/
+presentation/deliverables/
+presentation/figures/
+presentation/clear_story_*/
+presentation/anomaly_spatial_skill_*/
+
+# Local archival payloads; the checksums and inventory stay in docs
+archive/*.tar.gz
+
+# Editor and OS noise
+.DS_Store
+*.swp
+*.swo

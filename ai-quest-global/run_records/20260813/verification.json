@@ -1,0 +1,33 @@
+{
+  "checked_utc": "2026-08-15T23:33:52Z",
+  "checks": [
+    {
+      "command": "python -m pytest -q",
+      "environment": "system project environment",
+      "result": "122 passed, 1 binary-compatibility warning"
+    },
+    {
+      "command": "/home/raj.ayush/.conda/envs/s2s-hind/bin/python -m pytest -q model-runs/fuxi/tests/test_fuxi_pipeline.py",
+      "environment": "s2s-hind",
+      "result": "18 passed, 1 pyproj configuration warning"
+    },
+    {
+      "command": "python -m py_compile <precipitation and operational entry points>",
+      "result": "passed"
+    },
+    {
+      "command": "git diff --check -- <in-scope paths>",
+      "result": "passed"
+    },
+    {
+      "artifact": "run_records/20260813/emergency_uniform_20260813.npz",
+      "result": "shape [2,5,121,240], finite float32, range 0.2 to 0.2, exact category sum 1.0",
+      "sha256": "74d5f331b7034e93b00c0168a0d19f50f1cfd05e9825b88022839193dfa85976"
+    }
+  ],
+  "operational_jobs": {
+    "98117": "COMPLETED in 00:02:04 on cn1; exit 0:0",
+    "98118": "PENDING; all reliable gpu1 devices allocated and gpu2 excluded by node reliability policy"
+  },
+  "status": "implementation_verified; data-dependent experiment and upload gates remain closed"
+}

@@ -1,0 +1,16 @@
+{
+  "ai_wq_package_3_29_installed": false,
+  "ai_wq_password_environment_present": false,
+  "official_era5_six_hour_store_present": false,
+  "official_land_mask_present": false,
+  "fuxi_competition_permission_present": false,
+  "issue_date": "20260813",
+  "last_checked_utc": "2026-08-15T23:31:02Z",
+  "notes": [
+    "The native 2,080-case FuXi archive is present and metadata-complete.",
+    "Official retrieval, historical cache construction, absolute scoring, candidate freezing, and upload remain gated.",
+    "A hashed local uniform emergency NPZ exists, but no package-native file or upload was attempted.",
+    "No upload is permitted while any permission or credential gate is false."
+  ],
+  "status": "blocked_external_inputs"
+}

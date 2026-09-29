@@ -1,0 +1,65 @@
+{
+  "artifacts": {
+    "01_spatial_native_grid.pdf": "6e812e8efe3e77f10bb0125928492909f859acd48ed5add194db4add633b8359",
+    "01_spatial_native_grid.png": "0f78ecdd54a6508a747fcba5f38ee2c591ca9b03943621f186805f60c1101855",
+    "02_spatial_interpolated_display_only.pdf": "3d78b0f6deda946f884c3d556b78c74da2624fb0f978fa9dccb17fdc84c66e5d",
+    "02_spatial_interpolated_display_only.png": "262fc2d5a7570bbfc91e5308e4bf22e316c316e1d574b16e78be45f11628ec93",
+    "03_paired_case_acc.pdf": "ddeb54e832fb8cd87f39da12e93d337da08cc26ae6dd708db52e92f4ba4471c7",
+    "03_paired_case_acc.png": "e60c92971a0f896985e159766cf74f9fbaedc9bd7bcd6f25c052b181ecd6e3be",
+    "04_acc_by_lead_and_gain.pdf": "1b0b556348ca3b6fa5aaf9495cb05802a14e0172ce60114f8a33dc7bdc834239",
+    "04_acc_by_lead_and_gain.png": "48de7dcecb51034409b2084efb1c82a583e2fea149c134a46c0957168438bd2b",
+    "05_jjas_month_lead_tradeoffs.pdf": "cf0a2115707a34ab7d39c639d388e38c696069bf17f8d36699c6e3d99ddcac9d",
+    "05_jjas_month_lead_tradeoffs.png": "c0c4cc8b9cc586d127720c7fda7e718a97b6a50e2fb96192ff4e2d8859bbdac6",
+    "06_jjas_month_lead_uncertainty.pdf": "ccc55ada8d27932329e54fe87e50f41e9b7b1ffaf4441d18fe5159007c54fcca",
+    "06_jjas_month_lead_uncertainty.png": "b0098750a9618bf0712369d2742e948b4fd366c7e69a54f6536c4e9d9e5025fc",
+    "CAPTIONS.md": "72b54c1c2d1a2cab961025b8ee5f6dbd6e5684526678d32eb17080bf7977da24",
+    "STORY_AND_SLIDE_NOTES.md": "6ed48c96a55c920e1248eda04bbed62be6dbb1514849a304c41fbeba22cb6450",
+    "jjas_initialization_month_by_lead_summary.csv": "34edf84b28847dd688e4024ec64ba3cbb72e147a5b736b81a03cc18740aae945"
+  },
+  "blocked_validation_years": [
+    2018,
+    2019
+  ],
+  "cases": 70,
+  "evaluation_role": "exploratory_reused_hindcast_evaluation",
+  "evaluation_scope": "2020-2021 exploratory/reused locked hindcasts; not independent confirmation",
+  "evaluation_years": [
+    2020,
+    2021
+  ],
+  "imd_supported_cells": 171,
+  "independent_confirmation_claimed": false,
+  "lead_weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "metrics_recomputed_by_packager": false,
+  "schema_name": "fuxi_imd_clear_story_presentation_package",
+  "schema_version": 1,
+  "selected_configuration": "physical_full_compact",
+  "source_manifests": {
+    "acc": {
+      "path": "/home/raj.ayush/s2s/s2s_anlysis/clean/bias-correction/presentation/generated/locked_exploratory_acc_2020_2021_v4/manifest.json",
+      "sha256": "ee555dcf55a68e28b7c77a1f8f08db6b9e98d09a62709820ccb0f11f44447b5e"
+    },
+    "jjas": {
+      "path": "/home/raj.ayush/s2s/s2s_anlysis/clean/bias-correction/presentation/derived/jjas_month_lead_exploratory_2020_2021_final/diagnostic_manifest.json",
+      "sha256": "8359ef14da555d419436f23f4f901437dd8a2814f25cc5c92f0c20e0c5f4a41c"
+    },
+    "spatial": {
+      "path": "/home/raj.ayush/s2s/s2s_anlysis/clean/bias-correction/presentation/clear_story_spatial_final_v2_20260812/spatial_atlas_manifest.json",
+      "sha256": "5b577f69faf7f3f138f352ec5e3da64fed4f04244e59d93c41e8903f5a783ef9"
+    }
+  },
+  "source_or_prediction_arrays_opened_by_packager": false,
+  "statistical_significance_claimed": false,
+  "status": "complete",
+  "training_years": [
+    2002,
+    2017
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "forecast_issue": "20260813",
+  "last_checked_utc": "2026-08-15T23:33:52Z",
+  "inference_job": "98118",
+  "inference_state_at_record": "PENDING: gpu1 unavailable; gpu2 excluded by reliability policy",
+  "initialization": "experimental GFS proxy",
+  "input": {
+    "path": "/storage/raj.ayush/s2s_final_data/final_iteration/model-runs/fuxi/operational/gfs/20260813/ens51/inputs/annual2026/20260813/input.nc",
+    "sha256": "ca007baea5d775e26dffc827e5397b898baded06d945d9d2f42f780a72a23190",
+    "size_bytes": 11812342,
+    "source_days": [
+      "2026-08-11",
+      "2026-08-12"
+    ],
+    "status": "validated"
+  },
+  "lead_days": 42,
+  "members": 51,
+  "output_contract": "global 1.5-degree TP/TCWV/q850/q500/q250/T2M",
+  "publication_job": null,
+  "quest_upload_job": null,
+  "emergency_uniform": {
+    "path": "run_records/20260813/emergency_uniform_20260813.npz",
+    "sha256": "74d5f331b7034e93b00c0168a0d19f50f1cfd05e9825b88022839193dfa85976",
+    "status": "local-only structurally valid fallback"
+  },
+  "run_config": {
+    "path": "config/operational/fuxi_gfs_20260813_ens51.json",
+    "sha256": "c9bfb8f2ab2e85e7f4877b2ea8668eaebb11d8940484dbbd7785ae35a9a754b5"
+  },
+  "run_calendar": {
+    "path": "config/operational/fuxi_gfs_20260813_ens51.csv",
+    "sha256": "d525c9ab2e8b0a1172779e6bf65ce843409dc2f6640147f7aab6a04f44fc83f8"
+  },
+  "stage_job": "98117",
+  "stage_state": "COMPLETED",
+  "submission_record": "/storage/raj.ayush/s2s_final_data/final_iteration/model-runs/fuxi/operational/submissions/quest_compute_20260813.json"
+}

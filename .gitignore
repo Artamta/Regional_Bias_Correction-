@@ -1,0 +1,46 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.aws/
+credentials*
+
+# Python state and environments
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.venv*/
+**/venv/
+**/.coverage
+**/htmlcov/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Scientific data and model artifacts
+*.zarr/
+*.nc
+*.nc4
+*.grib
+*.grib2
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+
+# Generated global-workflow artifacts
+ai-quest-global/handoff/
+ai-quest-global/logs/
+ai-quest-global/plot_packages/
+ai-quest-global/runs/
+
+# Scheduler output
+slurm-*.out
+slurm-*.err

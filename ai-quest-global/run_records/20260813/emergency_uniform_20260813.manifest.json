@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-08-15T23:30:44.254356+00:00",
+  "issue_date": "20260813",
+  "output_sha256": "74d5f331b7034e93b00c0168a0d19f50f1cfd05e9825b88022839193dfa85976",
+  "reason": "No live 20260813 global six-field FuXi output is available while reliable gpu1 capacity is occupied; local structurally valid fallback only",
+  "status": "emergency_uniform",
+  "wrong_date_or_regional_data_used": false
+}

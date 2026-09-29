@@ -1,0 +1,9 @@
+{
+  "checked_utc": "2026-08-15T23:08:31Z",
+  "covers_competition_submission": false,
+  "covers_derived_probabilities": false,
+  "model": "FuXi-S2S",
+  "reason": "No written FuXi competition permission artifact was found in the workspace.",
+  "status": "missing",
+  "upload_allowed": false
+}

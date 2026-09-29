@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = ["-ra"]
+pythonpath = ["src", "evaluate", "hpc_compat", "../neural_adapter/src"]
